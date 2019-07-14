@@ -73,7 +73,7 @@ namespace PortalRandkowy.API.Data
 
                 for (int i = 0; i < computeHash.Length; i++)
                 {
-                    if(computeHash[i] != password[i])
+                    if(computeHash[i] != passwordHash[i])
                     {
                         return false;
                     }
